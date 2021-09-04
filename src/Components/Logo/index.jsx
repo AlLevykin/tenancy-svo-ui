@@ -7,7 +7,8 @@ const logoStyle = {
     backgroundPositionY: 'center', 
     backgroundRepeatX: 'no-repeat',
     backgroundRepeatY: 'no-repeat',
-    marginTop: '1em',       
+    marginTop: '1em',
+    marginBottom: '3em',    
     width: '100%',
     height: '30px'
   };

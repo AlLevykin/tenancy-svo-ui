@@ -28,25 +28,25 @@ function ApplicationForm() {
                                 <Form.Label>
                                     Предмет аренды
                                 </Form.Label>
-                                <Form.Control type="text" size="lg" value={lot.name} disabled readonly />
+                                <Form.Control type="text" size="lg" defaultValue={lot.name} disabled readOnly />
                             </Form.Group>
                             <Form.Group className="mb-3">
                                 <Form.Label>
                                     Вид деятельности
                                 </Form.Label>
-                                <Form.Control type="text" size="lg" value={lot.type} disabled readonly />
+                                <Form.Control type="text" size="lg" defaultValue={lot.type} disabled readOnly />
                             </Form.Group>
                             <Form.Group className="mb-3">
                                 <Form.Label>
                                     Общая площадь, кв. м
                                 </Form.Label>
-                                <Form.Control type="text" size="lg" value={lot.S} disabled readonly />
+                                <Form.Control type="text" size="lg" defaultValue={lot.S} disabled readOnly />
                             </Form.Group>
                             <Form.Group className="mb-3">
                                 <Form.Label>
                                     Арендная плата (МГП) за кв. м в мес., без НДС и эксплуатационных расходов
                                 </Form.Label>
-                                <Form.Control type="text" size="lg" value={lot.price} />
+                                <Form.Control type="text" size="lg" defaultValue={lot.price} />
                             </Form.Group>
                             <Form.Group className="mb-3">
                                 <Form.Label>

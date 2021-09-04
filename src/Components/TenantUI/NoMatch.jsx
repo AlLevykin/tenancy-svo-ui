@@ -1,6 +1,9 @@
-const NoMatch = () =>
+const NoMatch = () => {
+    return (
     <div className="display-6">
         404
-    </div>;
+    </div>
+    )
+}
 
 export default NoMatch;
