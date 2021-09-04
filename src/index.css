@@ -1,0 +1,18 @@
+html,
+body {
+    height: 100%;
+}
+
+.nav-bar {
+    width: 400px!important;
+    position: fixed;
+}
+
+.content {
+    margin-left: 400px;
+    width: calc(100% - 400px);
+}
+
+.offcanvas {
+    width: 50%!important;
+}
